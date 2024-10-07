@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bm.css">
+</head>
+<body>
+    <div class="birthdayCard">
+        <div class="cardFront"><h3 class="happy">HAPPY BIRTHDAY!</h3>
+        <div class="balloons">
+          <div class="balloonOne"></div>
+          <div class="balloonTwo"></div>
+          <div class="balloonThree"></div>
+          <div class="balloonFour"></div>
+        </div>
+        </div>
+        <div class="cardInside">
+            <h3 class="back">HAPPY BIRTHDAY!</h3>
+            <p>Gửi KKT khó tánh,</p>
+            <p>Tuổi mới rồi đấy, sống bớt bất ổn lại đi nhé, bạn yêu! Tui không có gì hơn ngoài mấy câu : chúc bạn sớm có người yêu giàu, mãi xênh đẹp và bớt hậu đậu.😁</p>
+            <p class="name">Chủ Dịch Vụ</p>
+          </div>
+        </div>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            const card = document.querySelector('.birthdayCard');
+        
+            card.addEventListener('click', function() {
+              card.classList.toggle('open');
+            });
+          });
+        </script>
+        
+</body>
+</html>
